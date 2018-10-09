@@ -1,94 +1,25 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+	android:orientation="vertical"
     android:background="#FFFFFF">
+<EditText
+  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ id="@+id/et"
+android:placeholder="enter your name"/>
+ <Button    
+  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+text="enter"
+id="@+id/btn"/>
+<TextView 
+	  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+id ="@+id/tv"/>
 
-    <ImageView
-        android:id="@+id/image"
-        android:layout_width="match_parent"
-        android:layout_height="320dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/image"/>
+	
 
-    <TextView
-        android:id="@+id/Udacity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/image"
-        android:layout_marginTop="@dimen/margin_top"
-        android:layout_marginLeft="@dimen/margin_left1"
-        android:text="@string/text_view4"
-        android:textColor="@color/black"
-        android:textSize="@dimen/text_size1" />
-
-    <ImageView
-        android:id="@+id/ic_place"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginLeft="@dimen/margin_left2"
-        android:layout_marginBottom="@dimen/margin_bottom1"
-        android:layout_above="@id/ic_phone"
-        android:src="@drawable/ic_place" />
-    <TextView
-        android:id="@+id/address"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/phone"
-        android:layout_marginLeft="@dimen/margin_left1"
-        android:layout_marginBottom="@dimen/margin_bottom2"
-        android:text="@string/text_view3"
-        android:textColor="@color/black"
-        android:textSize="@dimen/text_size"
-        android:autoLink="map"
-        android:textColorLink="@color/black"/>
-
-    <ImageView
-        android:id="@+id/ic_phone"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginLeft="@dimen/margin_left2"
-        android:layout_marginBottom="@dimen/margin_bottom1"
-        android:layout_above="@id/ic_web"
-        android:src="@drawable/ic_phone" />
-
-
-    <TextView
-        android:id="@+id/phone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/www"
-        android:layout_marginLeft="@dimen/margin_left1"
-        android:layout_marginBottom="@dimen/margin_bottom2"
-        android:text="@string/text_view2"
-        android:textSize="@dimen/text_size"
-        android:autoLink="phone"
-        android:textColorLink="@color/black"/>
-
-    <ImageView
-        android:id="@+id/ic_web"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="@dimen/margin_left2"
-        android:layout_marginBottom="@dimen/margin_bottom1"
-        android:src="@drawable/ic_web" />
-
-
-     <TextView
-        android:id="@+id/www"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="@dimen/margin_left1"
-        android:layout_marginBottom="@dimen/margin_bottom1"
-        android:text="@string/text_view1"
-        android:textSize="@dimen/text_size"
-        android:autoLink="web"
-        android:textColorLink="@color/black"/>
-
-
-
-</RelativeLayout>
+</LinearLayout>
