@@ -5,10 +5,10 @@ Project is named HelloAndroid
 ## Design Requirements:
 Design includes, at minimum, the following text (business name, address, and phone number):
 
-Udacity
-2465 Latham St
-Mountain View, CA 94043
-650-555-5555
+*Udacity
+*2465 Latham St
+*Mountain View, CA 94043
+*650-555-5555
 
 Design includes at least one image that the student feels represents the business in some way (creativity is fine, and encouraged!)
 
