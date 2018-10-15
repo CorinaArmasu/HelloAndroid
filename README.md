@@ -43,7 +43,9 @@ Elements and Text on screen are in appropriate units:
 
 Elements are specified in dp, text is specified in sp.
 
+![screenshot_20180216-003909](https://user-images.githubusercontent.com/34723009/46941063-e7497400-d072-11e8-962e-b2cbad9e6572.png)
 
+![screenshot_20181014-222653](https://user-images.githubusercontent.com/34723009/46941076-efa1af00-d072-11e8-8997-4fabd0595ec3.png)
 
 
 
